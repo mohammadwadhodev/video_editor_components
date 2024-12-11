@@ -1,0 +1,45 @@
+name: video_editor_example
+description: The example project for the video_editor package.
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ^3.4.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_editor_2:
+    path: ../
+  fraction: ^5.0.3
+  image_picker: ^1.1.2
+  video_player: ^2.9.1
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  #ffmpeg_kit_flutter: ^6.0.3
+  ffmpeg_kit_flutter_full: ^6.0.3
+  gallery_saver: ^2.3.2
+  file_picker: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+dependency_overrides:
+  get_thumbnail_video: ^0.7.3
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Namaku
+      fonts:
+        - asset: assets/Namaku.ttf
+
+
+
+
+
+
