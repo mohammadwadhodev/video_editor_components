@@ -517,7 +517,7 @@ class _VideoEditorState extends State<VideoEditor> {
     String outputPath = await getOutputPath();
 
     // Construct the FFmpeg command to add background music to the video
-    String command = FFMPEGCommands().multipleTexts(
+    String command = FFMPEGCommands().textOnVideo2(
         inputVideoPath: widget.filePath,
         outputVideoPath: outputPath, text: "Hello Mohammad",
         fontFamily:await getFontPath(),
